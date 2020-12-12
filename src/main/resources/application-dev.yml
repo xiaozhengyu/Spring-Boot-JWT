@@ -1,0 +1,55 @@
+server:
+  port: 8088
+
+# 系统日志
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: info
+
+spring:
+  application:
+    name: SpringBootJwt
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT-8
+
+  datasource:
+    name: datasource_mysql
+    url: jdbc:mysql://127.0.0.1:3306/helloworld?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库连接池
+    hikari:
+      username: root
+      password: 123456
+      minimum-idle: 5
+      maximum-pool-size: 50
+      auto-commit: true
+      idle-timeout: 30000
+      connection-timeout: 30000
+      pool-name: hikari_mysql
+      max-lifetime: 1200000
+      connection-test-query: SELECT 1
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        hbm2ddl:
+          auto: none
+
+swagger:
+  enabled: true
+  base-package: com.xzy.abjt
+  title: SpringBoot JWT API
+  version: 1.0
+  description: SpringBoot JWT API
+
+jwt:
+  # 用于加密、解密token的密钥
+  secret: zd80as9dfa0sdf90a8sdf90
+  request-header-key: Authenticate
+
