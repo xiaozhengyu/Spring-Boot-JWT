@@ -22,4 +22,13 @@ public interface UserRepository extends JpaRepository<UserEntity, String>, JpaSp
      * @return - 用户信息
      */
     Optional<UserEntity> findByIdAndDeleted(String useId, Integer isDeleted);
+
+    /**
+     * 查询用户信息
+     *
+     * @param username  - 用户名
+     * @param isDeleted - 0：未删除 1：已删除
+     * @return - 查询用户信息
+     */
+    Optional<UserEntity> findByUsernameAndDeleted(String username, Integer isDeleted);
 }

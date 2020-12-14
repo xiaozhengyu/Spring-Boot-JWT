@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public Message login(UserEntity loginUser) {
-        Optional<UserEntity> userOptional = findById(loginUser.getId());
+        Optional<UserEntity> userOptional = userRepository.findByUsernameAndDeleted(loginUser.getUsername(), NOT_DELETED);
         if (!userOptional.isPresent()) {
             return Message.fail("登陆失败，账号不存在或密码输入错误");
         }
@@ -60,6 +60,6 @@ public class UserServiceImpl implements UserService {
             return Message.fail("登陆失败，账号不存在或密码输入错误");
         }
 
-        return MessageBox.ok(tokenUtils.generateToken(loginUser));
+        return MessageBox.ok(tokenUtils.generateToken(userEntity));
     }
 }

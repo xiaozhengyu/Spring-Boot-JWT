@@ -81,10 +81,8 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
             if (!userOptional.isPresent()) {
                 throw new IllegalArgumentException("用户不存在，请重新登陆");
             }
-
-            return true;
         }
 
-        return false;
+        return true;
     }
 }

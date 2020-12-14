@@ -1,0 +1,244 @@
+2020-12-12 12:37:45,739 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 8468 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 12:37:45,743 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 12:37:45,798 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 12:37:45,798 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 12:37:46,466 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 12:37:46,491 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2020-12-12 12:37:46,803 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$299e3c60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 12:37:46,838 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 12:37:47,177 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 12:37:47,186 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 12:37:47,186 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 12:37:47,187 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 12:37:47,312 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 12:37:47,313 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 1513 ms
+2020-12-12 12:37:47,476 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 12:37:47,524 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 12:37:47,561 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 12:37:47,585 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 12:37:47,804 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 12:37:47,933 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 12:37:47,952 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 295ccccd-7208-4e4f-a539-0d1b6dc5006a
+
+2020-12-12 12:37:48,097 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d1ccf7d, org.springframework.security.web.context.SecurityContextPersistenceFilter@475bb59f, org.springframework.security.web.header.HeaderWriterFilter@236949ab, org.springframework.security.web.csrf.CsrfFilter@2dd073e6, org.springframework.security.web.authentication.logout.LogoutFilter@3d150b96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d3fbbb1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@186cffa7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f0be936, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a4a9cc0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ffc1a57, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e4abfee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21e9c48b, org.springframework.security.web.session.SessionManagementFilter@39b47646, org.springframework.security.web.access.ExceptionTranslationFilter@3bfa0862, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78caf761]
+2020-12-12 12:37:48,111 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 12:37:48,131 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 12:37:48,168 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 12:37:48,185 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 12:37:48,203 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 12:37:48,206 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 12:37:48,206 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 12:37:48,214 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 3.058 seconds (JVM running for 4.419)
+2020-12-12 12:37:48,287 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 12:37:48,297 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 12:39:28,527 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 8520 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 12:39:28,530 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 12:39:28,567 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 12:39:28,567 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 12:39:29,128 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 12:39:29,142 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2020-12-12 12:39:29,352 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$989c90ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 12:39:29,380 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 12:39:29,652 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 12:39:29,659 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 12:39:29,660 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 12:39:29,660 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 12:39:29,772 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 12:39:29,773 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 1205 ms
+2020-12-12 12:39:29,911 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 12:39:29,941 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 12:39:29,965 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 12:39:29,978 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 12:39:30,131 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 12:39:30,210 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 12:39:30,266 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 94739429-c53d-4dc1-b105-7069c254e8b6
+
+2020-12-12 12:39:30,336 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 12:39:30,352 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 12:39:30,358 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78ef1cff, org.springframework.security.web.context.SecurityContextPersistenceFilter@22fdf045, org.springframework.security.web.header.HeaderWriterFilter@e98be2b, org.springframework.security.web.csrf.CsrfFilter@474442f2, org.springframework.security.web.authentication.logout.LogoutFilter@1b86238a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69926d26, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@685d2582, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c4f68ff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@67c2276f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62bb47d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64532bd9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a40d546, org.springframework.security.web.session.SessionManagementFilter@99f4885, org.springframework.security.web.access.ExceptionTranslationFilter@710b1852, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cc16c87]
+2020-12-12 12:39:30,433 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 12:39:30,453 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 12:39:30,470 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 12:39:30,472 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 12:39:30,473 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 12:39:30,480 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 2.547 seconds (JVM running for 3.816)
+2020-12-12 12:39:30,488 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 12:39:30,497 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 16:53:26,417 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 9500 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 16:53:26,422 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 16:53:26,491 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 16:53:26,491 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 16:53:27,346 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 16:53:27,440 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2020-12-12 16:53:27,858 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6fa41dd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 16:53:27,901 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 16:53:28,359 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 16:53:28,370 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 16:53:28,371 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 16:53:28,371 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 16:53:28,543 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 16:53:28,543 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2050 ms
+2020-12-12 16:53:28,731 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 16:53:28,842 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 16:53:28,924 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 16:53:29,114 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 16:53:29,152 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 16:53:29,315 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: b48e1ecc-2f40-4f52-9158-3dbb86e00e81
+
+2020-12-12 16:53:29,321 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 16:53:29,515 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fbe86e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@38ddaf0, org.springframework.security.web.header.HeaderWriterFilter@45cb166e, org.springframework.security.web.csrf.CsrfFilter@65aca2a0, org.springframework.security.web.authentication.logout.LogoutFilter@3187c890, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26de92a9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28596b0d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69a85b69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58602b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66f6cdab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@333c29ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c8e0f2f, org.springframework.security.web.session.SessionManagementFilter@51ddfd00, org.springframework.security.web.access.ExceptionTranslationFilter@6435336c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69de6c9d]
+2020-12-12 16:53:29,578 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 16:53:29,616 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 16:53:29,655 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 16:53:29,691 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 16:53:29,731 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 16:53:29,735 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 16:53:29,871 WARN (UUIDHexGenerator.java:42)- HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2020-12-12 16:53:30,381 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 16:53:30,393 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 16:53:30,659 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 16:53:30,668 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 4.967 seconds (JVM running for 7.535)
+2020-12-12 16:57:11,052 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-12 16:57:11,053 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2020-12-12 16:57:11,054 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2020-12-12 17:02:10,143 WARN (HikariPool.java:787)- hikari_mysql - Thread starvation or clock leap detected (housekeeper delta=50s923ms365µs900ns).
+2020-12-12 17:03:26,521 WARN (HikariPool.java:787)- hikari_mysql - Thread starvation or clock leap detected (housekeeper delta=1m28s339ms173µs600ns).
+2020-12-12 17:05:39,080 INFO (AbstractEntityManagerFactoryBean.java:648)- Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:05:39,083 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:05:39,084 INFO (HikariDataSource.java:350)- hikari_mysql - Shutdown initiated...
+2020-12-12 17:05:39,094 INFO (HikariDataSource.java:352)- hikari_mysql - Shutdown completed.
+2020-12-12 17:05:45,690 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 13668 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 17:05:45,694 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 17:05:45,758 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 17:05:45,758 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 17:05:46,596 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 17:05:46,670 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2020-12-12 17:05:47,039 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ae0c5c4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 17:05:47,083 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 17:05:47,536 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 17:05:47,547 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:05:47,548 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 17:05:47,548 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 17:05:47,725 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 17:05:47,725 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 1966 ms
+2020-12-12 17:05:47,963 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:05:48,090 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 17:05:48,183 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 17:05:48,404 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 17:05:48,469 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 17:05:48,630 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 4c00d762-4804-4704-b956-155f9c78c663
+
+2020-12-12 17:05:48,657 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 17:05:48,824 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dda272c, org.springframework.security.web.context.SecurityContextPersistenceFilter@28ef35ff, org.springframework.security.web.header.HeaderWriterFilter@4c32841f, org.springframework.security.web.csrf.CsrfFilter@4cf2dc9c, org.springframework.security.web.authentication.logout.LogoutFilter@750c276, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43aee056, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56f8b49f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51e25c5e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fa34eb0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ff9c8e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e4d085b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64014e1c, org.springframework.security.web.session.SessionManagementFilter@456a7929, org.springframework.security.web.access.ExceptionTranslationFilter@62cf2d49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d1770f9]
+2020-12-12 17:05:48,947 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 17:05:48,995 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 17:05:49,000 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 17:05:49,036 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:05:49,085 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 17:05:49,093 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 17:05:49,322 WARN (UUIDHexGenerator.java:42)- HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2020-12-12 17:05:49,826 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 17:05:49,839 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:05:50,090 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 17:05:50,099 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 5.377 seconds (JVM running for 7.107)
+2020-12-12 17:06:09,532 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-12 17:06:09,532 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2020-12-12 17:06:09,533 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2020-12-12 17:07:00,781 INFO (AbstractEntityManagerFactoryBean.java:648)- Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:07:00,784 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:07:00,786 INFO (HikariDataSource.java:350)- hikari_mysql - Shutdown initiated...
+2020-12-12 17:07:00,790 INFO (HikariDataSource.java:352)- hikari_mysql - Shutdown completed.
+2020-12-12 17:07:06,856 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 11088 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 17:07:06,859 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 17:07:06,910 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 17:07:06,910 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 17:07:07,708 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 17:07:07,800 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2020-12-12 17:07:08,226 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9ab977dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 17:07:08,262 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 17:07:08,615 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 17:07:08,625 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:07:08,626 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 17:07:08,626 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 17:07:08,775 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 17:07:08,775 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 1864 ms
+2020-12-12 17:07:08,967 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:07:09,077 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 17:07:09,143 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 17:07:09,321 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 17:07:09,334 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 17:07:09,466 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 17:07:09,517 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 74627749-06b8-49ab-9a3f-d2dac6d20f2a
+
+2020-12-12 17:07:09,686 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 17:07:09,688 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b68dd96, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cdd168c, org.springframework.security.web.header.HeaderWriterFilter@47e89408, org.springframework.security.web.csrf.CsrfFilter@4ab37dbc, org.springframework.security.web.authentication.logout.LogoutFilter@428dbe0d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c662add, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@341d0d9f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9e0a402, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6406d489, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b549b72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40a0e2d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b908b2b, org.springframework.security.web.session.SessionManagementFilter@77da07f1, org.springframework.security.web.access.ExceptionTranslationFilter@60feb042, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fde60a6]
+2020-12-12 17:07:09,718 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 17:07:09,819 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 17:07:09,846 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:07:09,874 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 17:07:09,878 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 17:07:09,944 WARN (UUIDHexGenerator.java:42)- HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2020-12-12 17:07:10,432 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 17:07:10,443 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:07:10,703 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 17:07:10,712 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 4.584 seconds (JVM running for 6.207)
+2020-12-12 17:07:13,553 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-12 17:07:13,553 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2020-12-12 17:07:13,554 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2020-12-12 17:11:04,074 INFO (AbstractEntityManagerFactoryBean.java:648)- Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:11:04,077 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:11:04,079 INFO (HikariDataSource.java:350)- hikari_mysql - Shutdown initiated...
+2020-12-12 17:11:04,086 INFO (HikariDataSource.java:352)- hikari_mysql - Shutdown completed.
+2020-12-12 17:11:12,187 INFO (StartupInfoLogger.java:55)- Starting JwtApplication using Java 1.8.0_171 on WRGHO-20190617L with PID 1680 (E:\Program Code\Spring-Boot-JWT\target\classes started by Administrator in E:\Program Code\Spring-Boot-JWT)
+2020-12-12 17:11:12,194 INFO (SpringApplication.java:664)- The following profiles are active: dev
+2020-12-12 17:11:12,315 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-12 17:11:12,316 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-12 17:11:13,182 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-12 17:11:13,260 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2020-12-12 17:11:13,610 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5e27f024] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 17:11:13,646 INFO (AbstractAddressingEndpointMapping.java:236)- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-12-12 17:11:14,110 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (http)
+2020-12-12 17:11:14,121 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:11:14,122 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2020-12-12 17:11:14,123 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-12 17:11:14,296 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2020-12-12 17:11:14,297 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 1979 ms
+2020-12-12 17:11:14,503 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:11:14,613 INFO (LogHelper.java:31)- HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-12 17:11:14,688 INFO (Version.java:44)- HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-12 17:11:14,884 INFO (JavaReflectionManager.java:56)- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-12 17:11:14,920 WARN (JpaBaseConfiguration.java:221)- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 17:11:15,028 INFO (HikariDataSource.java:110)- hikari_mysql - Starting...
+2020-12-12 17:11:15,113 INFO (UserDetailsServiceAutoConfiguration.java:86)- 
+
+Using generated security password: 0d2fa4e8-331a-421c-8ef6-64042099b35c
+
+2020-12-12 17:11:15,290 INFO (HikariDataSource.java:123)- hikari_mysql - Start completed.
+2020-12-12 17:11:15,330 INFO (Dialect.java:170)- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-12 17:11:15,337 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3335d4d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ff270da, org.springframework.security.web.header.HeaderWriterFilter@6c56b18b, org.springframework.security.web.csrf.CsrfFilter@4a8cf4e0, org.springframework.security.web.authentication.logout.LogoutFilter@5089821e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bf39639, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@201283d2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@726a9b8c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45ce3de5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@697b7cfa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fc0df84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46ffa131, org.springframework.security.web.session.SessionManagementFilter@13064ebb, org.springframework.security.web.access.ExceptionTranslationFilter@3a6b0a1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b44dac0]
+2020-12-12 17:11:15,524 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2020-12-12 17:11:15,565 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8088"]
+2020-12-12 17:11:15,615 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (http) with context path ''
+2020-12-12 17:11:15,621 INFO (DeferredRepositoryInitializationListener.java:51)- Triggering deferred initialization of Spring Data repositories…
+2020-12-12 17:11:15,649 WARN (UUIDHexGenerator.java:42)- HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2020-12-12 17:11:15,830 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-12 17:11:15,831 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2020-12-12 17:11:15,833 INFO (FrameworkServlet.java:547)- Completed initialization in 2 ms
+2020-12-12 17:11:16,356 INFO (JtaPlatformInitiator.java:52)- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-12 17:11:16,368 INFO (AbstractEntityManagerFactoryBean.java:434)- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:11:16,641 INFO (DeferredRepositoryInitializationListener.java:55)- Spring Data repositories initialized!
+2020-12-12 17:11:16,652 INFO (StartupInfoLogger.java:61)- Started JwtApplication in 5.494 seconds (JVM running for 8.137)
+2020-12-12 17:12:20,007 INFO (AbstractEntityManagerFactoryBean.java:648)- Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:12:20,010 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:12:20,011 INFO (HikariDataSource.java:350)- hikari_mysql - Shutdown initiated...
+2020-12-12 17:12:20,020 INFO (HikariDataSource.java:352)- hikari_mysql - Shutdown completed.
