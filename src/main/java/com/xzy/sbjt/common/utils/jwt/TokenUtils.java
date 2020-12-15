@@ -18,22 +18,30 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class TokenUtils {
+    /**
+     * JWT系统配置
+     */
     private final JwtProperty jwtProperty;
     /**
-     * 解密器
+     * JWT加密算法
+     */
+    private final Algorithm algorithm;
+    /**
+     * JWT解密器
      */
     private final JWTVerifier jwtVerifier;
     /**
-     * HMAC256加密算法
+     * JWT生成器
      */
-    private final Algorithm HMAC256Algorithm;
+    private final JWTCreator.Builder tokenBuilder = JWT.create();
 
     @Autowired
     public TokenUtils(JwtProperty jwtProperty) {
         this.jwtProperty = jwtProperty;
-        // 使用相同的密钥创建解码器以及加密算法
-        jwtVerifier = JWT.require(Algorithm.HMAC256(jwtProperty.getSecret())).build();
-        HMAC256Algorithm = Algorithm.HMAC256(jwtProperty.getSecret());
+
+        // 必须使用相同的加密算法对token进行加密和解密，当前使用的是HMAC256加密算法。
+        algorithm = Algorithm.HMAC256(jwtProperty.getSecret());
+        jwtVerifier = JWT.require(algorithm).build();
     }
 
     /**
@@ -43,13 +51,11 @@ public class TokenUtils {
      * @return - 基于用户信息生成的token
      */
     public String generateToken(UserEntity userEntity) {
-        // 1.获取JWT生成工具
-        JWTCreator.Builder tokenBuilder = JWT.create();
 
-        // 2.设置JWT包含的信息：签发者、接收者、过期时间等
+        // 1.设置JWT包含的信息：签发者、接收者、过期时间等
         tokenBuilder.withAudience(userEntity.getId());
 
-        // 3.使用指定算法对token进行签名，最终返回签名后的token。
-        return tokenBuilder.sign(HMAC256Algorithm);
+        // 2.创建一个JWT，并使用指定加密算法进行签名
+        return tokenBuilder.sign(algorithm);
     }
 }

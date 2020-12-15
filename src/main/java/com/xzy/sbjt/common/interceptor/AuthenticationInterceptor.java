@@ -61,11 +61,12 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
             // 对token进行校验、解码
             DecodedJWT decodedToken;
             try {
-                // verify方法对token的有效性进行了详细的校验：如token是否失效、签名是否有效、加密算法是否正确等
+                // verify方法对token的有效性进行了详细的校验：如token是否失效、签名是否有效、加密算法是否正确等。
                 decodedToken = tokenUtils.getJwtVerifier().verify(token);
+                // verify方法针对不同的错误抛出了不同种类的异常（这些异常都是JWTVerificationException的子类），如果需要返回更准确的错误信息，可以对具体的异常类型进行捕获。
+            } catch (TokenExpiredException e) {
+                throw new IllegalArgumentException("过期的token，请重新登陆");
             } catch (JWTVerificationException e) {
-                // verify方法针对不同的错误抛出了不同种类的异常，如果需要返回更准确的错误信息，可以对分类异常进行捕获。
-                // （这些异常都是JWTVerificationException的子类）
                 throw new IllegalArgumentException("无效的token，请重新登陆");
             }
 
